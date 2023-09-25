@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 
 const Catagory = ({catagory}) => {
     const {id,img, title,category,category_bg,card_bg,text_button_bg} = catagory;
-    console.log(id)
     const customStyle ={
         background:card_bg,
         color:text_button_bg
