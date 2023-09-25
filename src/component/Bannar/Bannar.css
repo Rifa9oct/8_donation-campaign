@@ -1,0 +1,9 @@
+.bannar{
+    background-image: url("/src/assets/bannar.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    opacity: 0.1;
+}
