@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/ZxVS6XR/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_button_bg": "#0052FF",
+        "description": "Clean water for children is not just a basic human need; it is a cornerstone for their health, education, and overall well-being. Ensuring access to clean water is a moral imperative and a critical step toward building a better world for our youngest generation.",
+        "price": "$290.00"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/qC9GLmn/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "#ff444a33",
+        "card_bg": "#ff444a26",
+        "text_button_bg": "#FF444A",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": "$290.00"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/MsPS1VR/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_button_bg": "#79C23F",
+        "description": "Join us in making a difference in the lives of those less fortunate by participating in our Used Clothing Drive. At this heartwarming event, we aim to collect clean, gently worn clothing items that can provide warmth, comfort, and dignity to individuals and families facing economic challenges.",
+        "price": "$290.00"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/GvTxGZR/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_button_bg": "#F87147",
+        "description": "We believe that access to nutritious, sustainably sourced, and ethically produced food should be a fundamental right for all. Our initiative is dedicated to transforming the way we think about, produce, distribute, and consume food to create a healthier, more equitable, and environmentally sustainable future.",
+        "price": "$290.00"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/GvTxGZR/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_button_bg": "#F87147",
+        "description": "We believe that access to nutritious, sustainably sourced, and ethically produced food should be a fundamental right for all. Our initiative is dedicated to transforming the way we think about, produce, distribute, and consume food to create a healthier, more equitable, and environmentally sustainable future.",
+        "price": "$290.00"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/MsPS1VR/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_button_bg": "#79C23F",
+        "description": "Join us in making a difference in the lives of those less fortunate by participating in our Used Clothing Drive. At this heartwarming event, we aim to collect clean, gently worn clothing items that can provide warmth, comfort, and dignity to individuals and families facing economic challenges.",
+        "price": "$290.00"
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/qC9GLmn/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "#ff444a33",
+        "card_bg": "#ff444a26",
+        "text_button_bg": "#FF444A",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": "$290.00"
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/ZxVS6XR/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_button_bg": "#0052FF",
+        "description": "Clean water for children is not just a basic human need; it is a cornerstone for their health, education, and overall well-being. Ensuring access to clean water is a moral imperative and a critical step toward building a better world for our youngest generation.",
+        "price": "$290.00"
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co/ZxVS6XR/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_button_bg": "#0052FF",
+        "description": "Clean water for children is not just a basic human need; it is a cornerstone for their health, education, and overall well-being. Ensuring access to clean water is a moral imperative and a critical step toward building a better world for our youngest generation.",
+        "price": "$290.00"
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co/qC9GLmn/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "#ff444a33",
+        "card_bg": "#ff444a26",
+        "text_button_bg": "#FF444A",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": "$290.00"
+    },
+    {
+        "id": 11,
+        "img": "https://i.ibb.co/MsPS1VR/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_button_bg": "#79C23F",
+        "description": "Join us in making a difference in the lives of those less fortunate by participating in our Used Clothing Drive. At this heartwarming event, we aim to collect clean, gently worn clothing items that can provide warmth, comfort, and dignity to individuals and families facing economic challenges.",
+        "price": "$290.00"
+    },
+    {
+        "id": 12,
+        "img": "https://i.ibb.co/GvTxGZR/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_button_bg": "#F87147",
+        "description": "We believe that access to nutritious, sustainably sourced, and ethically produced food should be a fundamental right for all. Our initiative is dedicated to transforming the way we think about, produce, distribute, and consume food to create a healthier, more equitable, and environmentally sustainable future.",
+        "price": "$290.00"
+    }
+]
