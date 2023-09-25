@@ -1,5 +1,5 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { PropTypes } from "prop-types";
 
 const Catagory = ({catagory}) => {
     const {id,img, title,category,category_bg,card_bg,text_button_bg} = catagory;
@@ -24,4 +24,7 @@ const Catagory = ({catagory}) => {
     );
 };
 
+Catagory.propTypes ={
+    catagory: PropTypes.object
+}
 export default Catagory;

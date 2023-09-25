@@ -14,13 +14,13 @@ const Donation = () => {
             const completeDonation = donations.filter(donation => storedDonationsId.includes(donation.id))
             setDonationComplete(completeDonation);
         }
-    }, [])
+    },[donations])
 
     return (
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center mb-32">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-[83px] max-w-[1320px] mx-auto">
                 {
-                    donationComplete.slice(0,dataLength).map(donation => <DonationDisplay donation={donation}></DonationDisplay>)
+                    donationComplete.slice(0,dataLength).map(donation => <DonationDisplay key={donation.id} donation={donation}></DonationDisplay>)
                 }
             </div>
             <div className={dataLength > 4 && 'hidden'}>

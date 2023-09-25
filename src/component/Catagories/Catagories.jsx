@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Catagory from '../catagory/catagory';
 
 const Catagories = () => {
@@ -12,7 +12,7 @@ const Catagories = () => {
         <div className='max-w-[1340px] mx-auto mt-[100px] mb-[182px]'>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
                 {
-                    catagories.map(catagory => <Catagory catagory={catagory}></Catagory>)
+                    catagories.map(catagory => <Catagory key={catagory.id} catagory={catagory}></Catagory>)
                 }
             </div>
         </div>
