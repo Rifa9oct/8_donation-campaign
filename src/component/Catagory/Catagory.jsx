@@ -13,14 +13,12 @@ const Catagory = ({catagory}) => {
     }
     
     const navigate =useNavigate();
-
     const handleClick =  () => {
-        navigate(`/catagory/${id}`)  
-        console.log('i am clicked')              
+        navigate(`/catagory/${id}`)             
     }
     return (
         <div onClick={handleClick} style={customStyle} className='w-[312px] h-[283px] mx-auto rounded-lg'>
-            <img className='rounded-t-lg' src={img} alt=""/>
+            <img className='w-[312px]' src={img} alt=""/>
             <h2 className='w-fit ml-4 font-medium text-sm px-[10px] py-1 mt-4 mb-2 rounded' style={catagoryStyle}>{category}</h2>
             <h1 className='font-semibold px-4'>{title}</h1>
         </div>

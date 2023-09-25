@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Catagory from '../catagory/catagory';
-import { useLoaderData } from 'react-router-dom';
 
 const Catagories = () => {
     const [catagories, setCatagories] = useState([]);
