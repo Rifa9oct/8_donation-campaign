@@ -63,11 +63,11 @@ const Statistic = () => {
       <div className='flex flex-col md:flex-row items-center justify-center mb-32 text-lg'>
         <div className='flex items-center mb-5 md:mb-0 ml-14 md:ml-0'>
           <h3>Your Donation</h3>
-          <p className='w-[100px] ml-3 h-3 bg-[#00C49F] mr-14'></p>
+          <p className='w-[100px] rounded-[2px] ml-3 h-3 bg-[#00C49F] mr-14'></p>
         </div>
         <div className='flex items-center'>
           <h3>Total Donation</h3>
-          <p className='w-[100px] ml-3 h-3 bg-[#FF444A]'></p>
+          <p className='w-[100px] rounded-[2px] ml-3 h-3 bg-[#FF444A]'></p>
         </div>
       </div>
     </div>
