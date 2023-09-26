@@ -27,7 +27,7 @@ const DonationDetail = () => {
     return (
         <div className="p-5 lg:p-0">
             <img className="relative w-[1320px] lg:h-[700px] rounded-b-lg mx-auto lg:mt-20" src={img} alt="" />
-            <div className="bg-[#0b0b0b80] w-[386px] md:w-[728px] lg:w-[1320px] h-[80px] md:h-[130px] left-0 right-0 top-[410px] md:top-[574px] lg:top-[778px] rounded-b-lg mx-auto absolute roundedleft-80">
+            <div className="bg-[#0b0b0b80] w-[386px] md:w-[728px] lg:w-[1320px] h-[80px] md:h-[130px] left-0 right-0 top-[415px] md:top-[578px] lg:top-[778px] rounded-b-lg mx-auto absolute roundedleft-80">
                 <button onClick={handleClickBtn} style={btnbg} className="text-white py-2 px-2 md:py-4 md:px-[24px] ml-5 md:ml-[37px] mt-5 md:mt-[37px] rounded font-semibold md:text-xl">Donate {price}</button>
             </div>
             <div className="max-w-[1320px] mx-auto mt-14 mb-[122px]">
