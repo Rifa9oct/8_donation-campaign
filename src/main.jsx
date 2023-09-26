@@ -1,4 +1,4 @@
-import React, { Children } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 
@@ -32,6 +32,7 @@ const router = createBrowserRouter([
       },
       {
         path:'/statistic',
+        loader:() => fetch('donation.json'),
         element:<Statistic></Statistic>
       }
     ]

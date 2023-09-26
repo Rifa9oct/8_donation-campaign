@@ -18,7 +18,7 @@ const DonationDetail = () => {
         Swal.fire({
             position: 'top-center',
             icon: 'success',
-            title: 'Your donation has been successfully completed',
+            title: 'Your donation has successfully completed',
             showConfirmButton: false,
             timer: 1500
         })
