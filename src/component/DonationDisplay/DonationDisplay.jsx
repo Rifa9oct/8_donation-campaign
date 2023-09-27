@@ -28,7 +28,6 @@ const DonationDisplay = ({ donation }) => {
                     </Link>
                 </div>
             </div>
-
         </div>
     );
 };

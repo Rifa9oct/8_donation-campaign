@@ -17,7 +17,7 @@ const Statistic = () => {
     }
   }, [allData]);
 
-  const myDonation = parseFloat(((length / 12) * 100));
+  const myDonation = parseFloat(((length / 12) * 100).toFixed(1));
   const remaining = 100 - myDonation;
 
   const COLORS = ['#00C49F', '#FF444A'];
@@ -42,7 +42,7 @@ const Statistic = () => {
       <text className='font-bold text-2xl'
         x={x} y={y} fill="white"
         textAnchor={x > cx ? 'start' : 'center'}
-        dominantBaseline="central" > {`${(percent * 100).toFixed(1)}%`}</text>
+        dominantBaseline="central" > {`${(percent * 100)}%`}</text>
     );
   };
 

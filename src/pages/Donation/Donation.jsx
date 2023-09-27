@@ -1,31 +1,34 @@
-import { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
-import { getStoredDonation } from "../../component/utility/localstorage";
 import DonationDisplay from "../../component/DonationDisplay/DonationDisplay";
+import { getStoredDonation } from "../../component/utility/localstorage";
+import { useEffect, useState } from "react";
 
 const Donation = () => {
-    const donations = useLoaderData();
-    const [donationComplete, setDonationComplete] = useState([]);
-    const [dataLength, setDataLength] = useState(4);
+    const [getDonations, setGetDonationId] = useState([]);
+    const [noFound, setNoFound] = useState("");
 
-    useEffect(() => {
-        const storedDonationsId = getStoredDonation();
-        if (donations.length > 0) {
-            const completeDonation = donations.filter(donation => storedDonationsId.includes(donation.id))
-            setDonationComplete(completeDonation);
+    useEffect(()=>{
+        const storedDonations = getStoredDonation();
+        if (storedDonations) {
+            setGetDonationId(storedDonations);
         }
-    },[donations])
+        else {
+            setNoFound("no data found...");
+        }
+    },[])
 
     return (
-        <div className="flex flex-col items-center mb-32">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-[83px] max-w-[1320px] mx-auto">
-                {
-                    donationComplete.slice(0,dataLength).map(donation => <DonationDisplay key={donation.id} donation={donation}></DonationDisplay>)
-                }
-            </div>
-            <div className={dataLength > 4 && 'hidden'}>
-                <button onClick={() => setDataLength(donations.length)} className="py-4 px-7 bg-[#009444] rounded-lg text-white font-semibold mt-10">See All</button>
-            </div>
+        <div>
+           {
+                noFound ? <p className="text-5xl font-bold text-red-500 flex h-[80vh] items-center justify-center">{noFound}</p> :
+                    <div className="flex flex-col items-center mb-32">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-[83px] max-w-[1320px] mx-auto">
+                            {
+                                getDonations.map(donation => <DonationDisplay key={donation.id} donation={donation}></DonationDisplay>)
+                            }
+                        </div>
+
+                    </div>
+            }
         </div>
     );
 };

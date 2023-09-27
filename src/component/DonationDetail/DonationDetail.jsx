@@ -1,5 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { saveDonation } from "../utility/localstorage";
+
 const DonationDetail = () => {
     const donations = useLoaderData();
     const { id } = useParams();
@@ -12,9 +13,9 @@ const DonationDetail = () => {
     }
 
     const handleClickBtn = () => {
-        saveDonation(idInt);
+        saveDonation(donation);
     }
-
+ 
     return (
         <div className="p-5 lg:p-0">
             <img className="relative w-[1320px] lg:h-[700px] rounded-b-lg mx-auto lg:mt-20" src={img} alt="" />

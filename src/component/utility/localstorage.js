@@ -5,14 +5,15 @@ const getStoredDonation = () => {
     if (storedDonetion) {
         return JSON.parse(storedDonetion);
     }
-    return [];
+    return []; 
 }
 
-const saveDonation = id => {
+
+const saveDonation = donation => {
     const storedDonations = getStoredDonation();
-    const exists = storedDonations.find(donationId => donationId === id);
+    const exists = storedDonations.find(donationData => donationData.id === donation.id);
     if (!exists) {
-        storedDonations.push(id);
+        storedDonations.push(donation);
         localStorage.setItem('donation', JSON.stringify(storedDonations))
 
         // sweet alert 
@@ -33,7 +34,6 @@ const saveDonation = id => {
             timer: 1500
         })
     }
-
 }
 
 export { getStoredDonation, saveDonation }
