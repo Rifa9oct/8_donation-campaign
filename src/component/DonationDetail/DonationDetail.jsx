@@ -1,12 +1,10 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { saveDonation } from "../utility/localstorage";
-import Swal from 'sweetalert2'
 const DonationDetail = () => {
     const donations = useLoaderData();
     const { id } = useParams();
     const idInt = parseInt(id);
     const donation = donations.find(donation => donation.id === idInt);
-    console.log(donation, idInt)
 
     const { img, title, description, price, text_button_bg } = donation;
     const btnbg = {
@@ -15,13 +13,6 @@ const DonationDetail = () => {
 
     const handleClickBtn = () => {
         saveDonation(idInt);
-        Swal.fire({
-            position: 'top-center',
-            icon: 'success',
-            title: 'Your donation has successfully completed',
-            showConfirmButton: false,
-            timer: 1500
-        })
     }
 
     return (
