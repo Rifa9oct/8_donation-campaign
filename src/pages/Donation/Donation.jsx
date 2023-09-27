@@ -8,7 +8,7 @@ const Donation = () => {
 
     useEffect(()=>{
         const storedDonations = getStoredDonation();
-        if (storedDonations) {
+        if (storedDonations.length > 0) {
             setGetDonationId(storedDonations);
         }
         else {

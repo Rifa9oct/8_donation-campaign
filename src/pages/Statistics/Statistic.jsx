@@ -1,21 +1,16 @@
 import { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router';
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 import { getStoredDonation } from '../../component/utility/localstorage';
 
 const Statistic = () => {
-  const allData = useLoaderData();
   const [length, Setlength] = useState(0);
 
   useEffect(() => {
-    const storedDonationsId = getStoredDonation();
-    if (allData.length > 0) {
-      const completeDonation = allData.filter(donation =>
-        storedDonationsId.includes(donation.id)
-      );
-      Setlength(completeDonation.length);
-    }
-  }, [allData]);
+    const storedDonations = getStoredDonation();
+    Setlength(storedDonations.length);  
+  }, []);
+
+  console.log(length);
 
   const myDonation = parseFloat(((length / 12) * 100).toFixed(1));
   const remaining = 100 - myDonation;
