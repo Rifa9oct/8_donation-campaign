@@ -8,7 +8,7 @@ const Catagories = () => {
     const [searchValue, setSearchValue] = useState('');
 
     useEffect(() => {
-        fetch('donation.json')
+        fetch('fakeData.json')
             .then(res => res.json())
             .then(data => {
                 setCatagories(data);
